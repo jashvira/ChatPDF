@@ -1,2 +1,3 @@
-# ChatPDF
-Chat with any PDF, using OpenAI API and a novel retrieval algorithm.
+# ChatPDF for Research Papers
+An efficient retrieval mechanism to chat specifically with a technical
+document using the OpenAI API. Embeddings of relevant snippets are created using the state-of-the-art (at that point) INSTRUCTOR model, followed by a dimensionality reduction using Uniform Manifold Approximation and Projection (UMAP). Finally, the embeddings are clustering into buckets of similar content using HDBSCAN. This system aims to solve hard problems like answering indirect query questions and looking up relevant references.
